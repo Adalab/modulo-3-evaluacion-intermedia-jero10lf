@@ -20,9 +20,3 @@ const Pokemon = (props) => {
 };
 
 export default Pokemon;
-
-Pokemon.propTypes = {
-  name: PropTypes.string,
-  url: PropTypes.string,
-  pokemon: PropTypes.object,
-};
