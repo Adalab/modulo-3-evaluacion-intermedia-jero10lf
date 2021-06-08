@@ -1,0 +1,36 @@
+.item {
+  background-color: rgb(72, 14, 80);
+  border: rgb(163, 125, 146) solid 2px;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+
+  &__name {
+    text-transform: capitalize;
+    align-self: center;
+    border-top: solid rgb(158, 47, 134) 2px;
+    border-bottom: solid rgb(158, 47, 134) 2px;
+    color: blanchedalmond;
+  }
+
+  &__type {
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    &--li {
+      margin: 2px;
+      padding: 3px;
+      font-size: small;
+      background-color: rgb(158, 47, 134);
+      color: rgb(241, 237, 229);
+      border-radius: 10px;
+    }
+  }
+  
+}
